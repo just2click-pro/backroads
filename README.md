@@ -402,5 +402,3 @@ package.json
     "eject": "react-scripts eject"
   },
 ```
-
-123
