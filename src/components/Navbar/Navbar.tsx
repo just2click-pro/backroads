@@ -9,7 +9,7 @@ import NavSocialLink from './NavbarSocialLink'
 
 const Navbar: FC = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" id="main-navbar">
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} className="nav-logo" alt="backroads" />
