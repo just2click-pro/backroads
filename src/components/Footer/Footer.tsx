@@ -7,7 +7,7 @@ import FooterSocialLink from './FooterSocialLink'
 
 const Footer: FC = () => {
   return (
-    <footer className="section footer">
+    <footer id="footer" className="section footer">
       <ul className="footer-links">
         {pageLinks.map((link) => (
           <FooterLink link={link} />

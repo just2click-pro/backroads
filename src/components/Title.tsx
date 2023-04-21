@@ -7,7 +7,7 @@ interface ITitle {
 
 const Title: FC<ITitle> = ({ title, subTitle }) => {
   return (
-    <div className="section-title">
+    <div className="section-title" id="main-title">
       <h2>
         {title} <span>{subTitle}</span>
       </h2>

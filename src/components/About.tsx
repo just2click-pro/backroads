@@ -5,7 +5,7 @@ import aboutImg from '../images/about.jpeg'
 
 const About: FC = () => {
   return (
-    <section className="section" id="about">
+    <section id="about" className="section">
       <Title title="about" subTitle="us" />
 
       <div className="section-center about-center">

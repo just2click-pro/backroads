@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 const Hero: FC = () => {
   return (
-    <section className="hero" id="home">
+    <section id="home" className="hero">
       <div className="hero-banner">
         <h1>backraods app</h1>
         <p>

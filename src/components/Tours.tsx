@@ -8,7 +8,7 @@ import Title from './Title'
 
 const Tours: FC = () => {
   return (
-    <section className="section" id="tours">
+    <section id="tours" className="section">
       <Title title="featured" subTitle="tours" />
 
       <div className="section-center featured-center">
