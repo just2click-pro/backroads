@@ -19,7 +19,7 @@ const Footer = () => {
         ))}
       </ul>
       <p className="copyright">
-        copyright &copy; Backroads travel tours company
+        copyright &copy; Backroads travel tours company demo
         <span id="date"></span> all rights reserved
       </p>
     </footer>

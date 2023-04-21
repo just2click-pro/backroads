@@ -2,9 +2,11 @@ import React from 'react'
 
 import { tours } from '../data'
 
+import { FC } from 'react'
+
 import Title from './Title'
 
-const Tours = () => {
+const Tours: FC = () => {
   return (
     <section className="section" id="tours">
       <Title title="featured" subTitle="tours" />

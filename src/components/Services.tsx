@@ -1,10 +1,10 @@
-import React from 'react'
+import { FC } from 'react'
 
 import { services } from '../data'
 
 import Title from './Title'
 
-const Services = () => {
+const Services: FC = () => {
   return (
     <section className="section services" id="services">
       <Title title="our" subTitle="services" />

@@ -1,6 +1,6 @@
-import React from 'react'
+import { FC } from 'react'
 
-const Hero = () => {
+const Hero: FC = () => {
   return (
     <section className="hero" id="home">
       <div className="hero-banner">

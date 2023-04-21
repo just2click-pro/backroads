@@ -1,4 +1,4 @@
-import React from 'react'
+import { FC } from 'react'
 
 import logo from '../../images/logo.svg'
 
@@ -7,7 +7,7 @@ import { externalLinks, pageLinks } from '../../data'
 import NavLink from './NavbarLink'
 import NavSocialLink from './NavbarSocialLink'
 
-const Navbar = () => {
+const Navbar: FC = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
