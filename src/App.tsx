@@ -1,4 +1,4 @@
-import React from 'react'
+import { FC } from 'react'
 
 import About from './components/About'
 import Footer from './components/Footer/Footer'
@@ -7,7 +7,7 @@ import Navbar from './components/Navbar/Navbar'
 import Services from './components/Services'
 import Tours from './components/Tours'
 
-function App() {
+const App: FC = () => {
   return (
     <>
       <Navbar />

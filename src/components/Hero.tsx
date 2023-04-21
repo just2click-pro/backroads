@@ -1,13 +1,13 @@
-import React from 'react'
+import { FC } from 'react'
 
-const Hero = () => {
+const Hero: FC = () => {
   return (
-    <section className="hero" id="home">
+    <section id="home" className="hero">
       <div className="hero-banner">
         <h1>backraods app</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          explicabo debitis est autem dicta.
+          explicabo debitis est autem.
         </p>
         <a href="#tours" className="btn hero-btn">
           explore tours

@@ -1,12 +1,12 @@
-import React from 'react'
+import { FC } from 'react'
 
 import { services } from '../data'
 
 import Title from './Title'
 
-const Services = () => {
+const Services: FC = () => {
   return (
-    <section className="section services" id="services">
+    <section id="services" className="section services">
       <Title title="our" subTitle="services" />
       <div className="section-center services-center">
         {services.map((service) => (

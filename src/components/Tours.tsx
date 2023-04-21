@@ -2,11 +2,13 @@ import React from 'react'
 
 import { tours } from '../data'
 
+import { FC } from 'react'
+
 import Title from './Title'
 
-const Tours = () => {
+const Tours: FC = () => {
   return (
-    <section className="section" id="tours">
+    <section id="tours" className="section">
       <Title title="featured" subTitle="tours" />
 
       <div className="section-center featured-center">

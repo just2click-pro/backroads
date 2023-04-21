@@ -1,11 +1,11 @@
-import React from 'react'
+import { FC } from 'react'
 
 import Title from './Title'
 import aboutImg from '../images/about.jpeg'
 
-const About = () => {
+const About: FC = () => {
   return (
-    <section className="section" id="about">
+    <section id="about" className="section">
       <Title title="about" subTitle="us" />
 
       <div className="section-center about-center">

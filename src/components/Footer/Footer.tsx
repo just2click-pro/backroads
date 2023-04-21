@@ -1,13 +1,13 @@
-import React from 'react'
+import { FC } from 'react'
 
 import { externalLinks, pageLinks } from '../../data'
 
 import FooterLink from './FooterLink'
 import FooterSocialLink from './FooterSocialLink'
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
-    <footer className="section footer">
+    <footer id="footer" className="section footer">
       <ul className="footer-links">
         {pageLinks.map((link) => (
           <FooterLink link={link} />
@@ -19,7 +19,7 @@ const Footer = () => {
         ))}
       </ul>
       <p className="copyright">
-        copyright &copy; Backroads travel tours company
+        copyright &copy; Backroads travel tours company demo
         <span id="date"></span> all rights reserved
       </p>
     </footer>
