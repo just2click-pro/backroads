@@ -1,11 +1,11 @@
-import React from 'react'
+import { FC } from 'react'
 
 import { externalLinks, pageLinks } from '../../data'
 
 import FooterLink from './FooterLink'
 import FooterSocialLink from './FooterSocialLink'
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
     <footer className="section footer">
       <ul className="footer-links">
